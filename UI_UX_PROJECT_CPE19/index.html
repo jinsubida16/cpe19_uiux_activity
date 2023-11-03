@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>UI_UX_PROJECT</title>
+    <meta property="og:title" content="UI_UX_PROJECT">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap">
+    <style>
+        /* Reset styles */
+        html {
+            line-height: 1.15;
+        }
+        body {
+            margin: 0;
+        }
+        * {
+            box-sizing: border-box;
+            border-width: 0;
+            border-style: solid;
+        }
+        p, li, ul, pre, div, h1, h2, h3, h4, h5, h6, figure, blockquote, figcaption {
+            margin: 0;
+            padding: 0;
+        }
+        button {
+            background-color: transparent;
+        }
+        button, input, optgroup, select, textarea {
+            font-family: inherit;
+            font-size: 100%;
+            line-height: 1.15;
+            margin: 0;
+        }
+        button, select {
+            text-transform: none;
+        }
+        button, [type="button"], [type="reset"], [type="submit"] {
+            -webkit-appearance: button;
+        }
+        button::-moz-focus-inner, [type="button"]::-moz-focus-inner, [type="reset"]::-moz-focus-inner, [type="submit"]::-moz-focus-inner {
+            border-style: none;
+            padding: 0;
+        }
+        button:-moz-focus, [type="button"]:-moz-focus, [type="reset"]:-moz-focus, [type="submit"]:-moz-focus {
+            outline: 1px dotted ButtonText;
+        }
+        a {
+            color: inherit;
+            text-decoration: inherit;
+        }
+        input {
+            padding: 2px 4px;
+        }
+        img {
+            display: block;
+        }
+        html {
+            scroll-behavior: smooth;
+        }
+        
+        /* Default styles */
+        html {
+            font-family: Inter;
+            font-size: 16px;
+        }
+        body {
+            font-weight: 400;
+            font-style: normal;
+            text-decoration: none;
+            text-transform: none;
+            letter-spacing: normal;
+            line-height: 1.15;
+            color: var(--dl-color-gray-black);
+            background-color: var(--dl-color-gray-white);
+        }
+    </style>
+  </head>
+  <body>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <link href="./index.css" rel="stylesheet" />
+
+      <div class="home-container">
+        <header data-role="Header" class="home-header">
+          <div class="home-container01">
+            <img
+              alt="logo"
+              src="public/small_logo-1400w.png"
+              loading="eager"
+              class="home-image"
+            />
+          </div>
+          <div class="home-container02">
+            <nav class="navigation-links-nav navigation-links-root-class-name12">
+              <a href="#home-section"><span class="navigation-links-text"><span>Home</span></span></a>
+              <a href="#about-section"><span class="navigation-links-text1"><span>About Us</span></span></a>
+              <a href="#members-section"><span class="navigation-links-text2"><span>Members</span></span></a>
+              <a href="#gallery-section"><span class="navigation-links-text3"><span>Gallery</span></span></a>
+              <a href="#events-section"><span class="navigation-links-text4"><span>Events</span></span></a>
+              <a href="#subscribe-section"><span class="navigation-links-text5"><span>Subscribe</span></span></a>
+            </nav>
+          </div>
+          <div data-role="BurgerMenu" class="home-burger-menu">
+            <svg viewBox="0 0 1024 1024" class="home-icon">
+              <path
+                d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
+              ></path>
+            </svg>
+          </div>
+          <div data-role="MobileMenu" class="home-mobile-menu">
+            <nav class="home-nav">
+              <div class="home-container03">
+                <img
+                  alt="image"
+                  src="https://presentation-website-assets.teleporthq.io/logos/logo.png"
+                  class="home-image1"
+                />
+                <div data-role="CloseMobileMenu" class="home-close-mobile-menu">
+                  <svg viewBox="0 0 1024 1024" class="home-icon02">
+                    <path
+                      d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+              <nav class="navigation-links-nav navigation-links-root-class-name14">
+                <a href="#home-section"><span class="navigation-links-text"><span>Home</span></span></a>
+                <a href="#about-section"><span class="navigation-links-text1"><span>About Us</span></span></a>
+                <a href="#members-section"><span class="navigation-links-text2"><span>Members</span></span></a>
+                <a href="#gallery-section"><span class="navigation-links-text3"><span>Gallery</span></span></a>
+                <a href="#events-section"><span class="navigation-links-text4"><span>Events</span></span></a>
+                <a href="#subscribe-section"><span class="navigation-links-text5"><span>Subscribe</span></span></a>
+              </nav>
+            </nav>
+          </div>
+        </header>
+        <div class="home-hero fade-in" id="home-section">
+          <div class="home-container04">
+            <h1 class="home-text">
+              <span>WELCOME TO</span>
+              <br class="home-text02" />
+              <span class="home-text03">ALS WEBSITE!</span>
+            </h1>
+            <span class="home-text04">
+              <span>
+                This website is created an activity for CPE19 - Emerging
+                Technologies in CPE
+              </span>
+              <br />
+              <br />
+              <span>
+                Please browse the webpage to see more exciting and enjoyable
+                content waiting for you to see!
+              </span>
+              <br />
+              <span></span>
+              <br />
+              <br />
+              <span></span>
+              <span></span>
+            </span>
+          </div>
+          <div class="parallax-container">
+            <img src="public/logo-1600w.png" alt="image" class="home-image2" id="parallax-image" />
+          </div>
+        </div>
+        <div class="home-banner fade-in" id="about-section">
+          <h1 class="home-text15">About Us</h1>
+          <span class="home-text16">
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Welcome to the "About Us"
+            page of our team, comprised of Jean Leanard Subida, Nyco Lawrence
+            Ladimo, and Lorenzo Alarva, all hailing from the prestigious Laguna
+            State Polytechnic University - Santa Cruz Campus. We are passionate
+            students pursuing our Bachelor of Science in Computer Engineering,
+            currently enrolled in Section CPE-4A. Our journey began when we
+            embarked on the course CPE19 - Emerging Technologies in CPE, which
+            opened up a world of innovative opportunities. Our collective vision
+            is to leverage these emerging technologies to create responsive
+            webpages that not only function flawlessly but also offer an
+            exceptional User Interface/User Experience (UI/UX) design. With a
+            commitment to staying on the cutting edge of technology and design,
+            we are excited to share our progress and expertise with you as we
+            continue to grow and learn in this dynamic field. Thank you for
+            joining us on this journey of technological exploration and
+            innovation!
+          </span>
+        </div>
+        <div class="home-container05 fade-in" id="members-section">
+          <h1 class="home-text17">
+            <span>MEMBERS</span>
+            <br />
+          </h1>
+          <div class="home-container06">
+            <div
+              class="testimonial-card1-testimonial-card testimonial-card1-root-class-name2 fade-in"
+            >
+              <div class="testimonial-card1-blog-post-card ">
+                <img
+                  alt="image"
+                  src="public/jin.jpg"
+                  image_src="public/jin.jpg"
+                  class="testimonial-card1-image"
+                />
+                <div class="testimonial-card1-container">
+                  <div class="testimonial-card1-container1">
+                    <span class="testimonial-card1-text">SUBIDA</span>
+                  </div>
+                  <h1 class="testimonial-card1-text1">
+                    JEAN LEANARD
+                  </h1>
+                  <div class="testimonial-card1-container2">
+                    <div class="testimonial-card1-profile">
+                      <img
+                        alt="profile"
+                        src="public/jin.jpg"
+                        class="testimonial-card1-image1"
+                      />
+                      <span class="testimonial-card1-text2">Subida</span>
+                    </div>
+                    <span class="testimonial-card1-text3">Read More -&gt;</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="testimonial-card1-testimonial-card testimonial-card1-root-class-name fade-in"
+            >
+              <div class="testimonial-card1-blog-post-card">
+                <img
+                  alt="image"
+                  src="public/nyco.jpg"
+                  image_src="public/nyco.jpg"
+                  class="testimonial-card1-image"
+                />
+                <div class="testimonial-card1-container">
+                  <div class="testimonial-card1-container1">
+                    <span class="testimonial-card1-text">LADIMO</span>
+                  </div>
+                  <h1 class="testimonial-card1-text1">
+                    NYCO LAWRENCE
+                  </h1>
+                  <div class="testimonial-card1-container2">
+                    <div class="testimonial-card1-profile">
+                      <img
+                        alt="profile"
+                        src="public/nyco.jpg"
+                        class="testimonial-card1-image1"
+                      />
+                      <span class="testimonial-card1-text2">Ladimo</span>
+                    </div>
+                    <span class="testimonial-card1-text3">Read More -&gt;</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="testimonial-card1-testimonial-card testimonial-card1-root-class-name1 fade-in"
+            >
+              <div class="testimonial-card1-blog-post-card">
+                <img
+                  alt="image"
+                  src="public/enzo.jpg"
+                  image_src="public/enzo.jpg"
+                  class="testimonial-card1-image"
+                />
+                <div class="testimonial-card1-container">
+                  <div class="testimonial-card1-container1">
+                    <span class="testimonial-card1-text">ALARVA</span>
+                  </div>
+                  <h1 class="testimonial-card1-text1">
+                    LORENZO
+                  </h1>
+                  <div class="testimonial-card1-container2">
+                    <div class="testimonial-card1-profile">
+                      <img
+                        alt="profile"
+                        src="public/enzo.jpg"
+                        class="testimonial-card1-image1"
+                      />
+                      <span class="testimonial-card1-text2">Alarva</span>
+                    </div>
+                    <span class="testimonial-card1-text3">Read More -&gt;</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="modal1" class="modal">
+          <div class="modal-content" style="background-image: url('./public/modal.png');">
+            <span class="close" id="closeModal1">&times;</span>
+            <h2>Name: <span id="name1"></span></h2>
+            <p>Age: <span id="age1"></span</p>
+            <p>Birthday: <span id="birthday1"></span></p>
+            <p>Address: <span id="address1"></span></p>
+            <p>Talents: <span id="talents1"></span></p>
+            <p>Goals: <span id="goals1"></span></p>
+          </div>
+        </div>
+        
+        <div id="modal2" class="modal">
+          <div class="modal-content" style="background-image: url('./public/modal.png');">
+            <span class="close" id="closeModal2">&times;</span>
+            <h2>Name: <span id="name2"></span></h2>
+            <p>Age: <span id="age2"></span</p>
+            <p>Birthday: <span id="birthday2"></span></p>
+            <p>Address: <span id="address2"></span></p>
+            <p>Talents: <span id="talents2"></span></p>
+            <p>Goals: <span id="goals2"></span></p>
+          </div>
+        </div>
+      
+        <div id="modal3" class="modal">
+          <div class="modal-content" style="background-image: url('./public/modal.png');">
+            <span class="close" id="closeModal3">&times;</span>
+            <h2>Name: <span id="name3"></span></h2>
+            <p>Age: <span id="age3"></span</p>
+            <p>Birthday: <span id="birthday3"></span></p>
+            <p>Address: <span id="address3"></span></p>
+            <p>Talents: <span id="talents3"></span></p>
+            <p>Goals: <span id="goals3"></span></p>
+          </div>
+        </div>
+
+        <h1 class="home-text21 fade-in" id="gallery-section">GALLERY</h1>
+        <div class="home-gallery">
+          <div class="carousel fade-in">
+            <div class="gallery-card1-gallery-card gallery-card1-root-class-name1">
+              <img
+                alt="image"
+                src="./public/Acoeslogo.jpg"
+                class="gallery-card1-image"
+              />
+              <h2 class="gallery-card1-text"><span>ACOES</span></h2>
+              <span class="gallery-card1-text1">
+                <span>Logo of the Association of Computer Engineering Students of LSPU-SCC</span>
+              </span>
+            </div>
+            <div class="gallery-card1-gallery-card gallery-card1-root-class-name2">
+              <img
+                alt="image"
+                src="./public/icpep2023event.jpg"
+                class="gallery-card1-image"
+              />
+              <h2 class="gallery-card1-text"><span>ICPEP 2023</span></h2>
+              <span class="gallery-card1-text1">
+                <span>Announcement of ICPEP 2023 General Assembly & CPE Challenge</span>
+              </span>
+            </div>
+            <div class="gallery-card1-gallery-card gallery-card1-root-class-name3">
+              <img
+                alt="image"
+                src="./public/comeleclogo.jpg"
+                class="gallery-card1-image"
+              />
+              <h2 class="gallery-card1-text"><span>COMELEC</span></h2>
+              <span class="gallery-card1-text1">
+                <span>LSPU Local Comelec of LSPU Santa Cruz Main Campus</span>
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <h1 class="home-text21 fade-in"  id="events-section">EVENTS</h1>
+        <div class="home-container07">
+          <div class="home-blog">
+            <div
+              class="blog-post-card4-blog-post-card blog-post-card4-root-class-name1 fade-in"
+            >
+              <img
+                alt="image"
+                src="./public/icpep.jpg"
+                class="blog-post-card4-image"
+              />
+              <div class="blog-post-card4-container">
+                <span class="blog-post-card4-text"><span>DECEMBER 10</span></span>
+                <span class="blog-post-card4-text1">
+                  <span>
+                    ICpEP.se R4A Regional Convention, General Assembly, and CpE Challenge 2022
+                    "Accelerating Digital Transformation, Conformity and Industry 4.0"
+                    Pamantasan ng Cabuyao (PNC), Cabuyao Laguna
+                  </span>
+                </span>
+                <div class="blog-post-card4-separator"></div>
+                <span class="blog-post-card4-text2">
+                  <span>Organization Event</span>
+                </span>
+              </div>
+            </div>
+            <div class="home-container08">
+              <div
+                class="blog-post-card4-blog-post-card blog-post-card4-root-class-name2 fade-in"
+              >
+                <img
+                  alt="image"
+                  src="./public/cpedays.jpg"
+                  class="blog-post-card4-image"
+                />
+                <div class="blog-post-card4-container">
+                  <span class="blog-post-card4-text"><span>FEBRUARY 11</span></span>
+                  <span class="blog-post-card4-text1">
+                    <span>
+                      Computer Engineering (CPE) Days Held at Laguna State Polytechnic University - Santa Cruz Campus 
+                    </span>
+                  </span>
+                  <div class="blog-post-card4-separator"></div>
+                  <span class="blog-post-card4-text2"><span>CPE Days</span></span>
+                </div>
+              </div>
+              <div
+                class="blog-post-card4-blog-post-card blog-post-card4-root-class-name3 fade-in"
+              >
+                <img
+                  alt="image"
+                  src="./public/efest.jpg"
+                  class="blog-post-card4-image"
+                />
+                <div class="blog-post-card4-container">
+                  <span class="blog-post-card4-text"><span>MAY 25-28</span></span>
+                  <span class="blog-post-card4-text1">
+                    <span>
+                      Engineering Festival 2023 Held at Laguna State Polytechnic University - Santa Cruz Campus 
+                    </span>
+                  </span>
+                  <div class="blog-post-card4-separator"></div>
+                  <span class="blog-post-card4-text2">
+                    <span>Engineering Week</span>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div
+              class="blog-post-card4-blog-post-card blog-post-card4-root-class-name4 fade-in"
+            >
+              <img
+                alt="image"
+                src="./public/icpep 2023.jpg"
+                class="blog-post-card4-image"
+              />
+              <div class="blog-post-card4-container">
+                <span class="blog-post-card4-text"><span>NOVEMBER 25</span></span>
+                <span class="blog-post-card4-text1">
+                  <span>
+                    ICpEP.se R4A Regional Convention, General Assembly, and CpE Challenge 2023
+                    "Innovating with ICPEP: Building a Future in Computer Engineering"
+                    -University of Perpetual Help System Dalta (UPHSD)
+                  </span>
+                </span>
+                <div class="blog-post-card4-separator"></div>
+                <span class="blog-post-card4-text2">
+                  <span>ICPEP Convention</span>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="home-banner1 fade-in" id="subscribe-section">
+          <span class="home-text22">We value you</span>
+          <h1 class="home-text23">SUBSCRIBE FOR MORE</h1>
+          <span class="home-text24">
+            <span>
+              Subscribe today to stay updated and witness continuous
+              improvements!
+            </span>
+          </span>
+          <div class="home-container09">
+            <input
+              type="text"
+              placeholder="Email here..."
+              class="home-textinput input"
+            />
+            <button class="home-button button">Subscribe</button>
+          </div>
+        </div>
+        <footer class="home-footer">
+          <div class="home-container10">
+            <img
+              alt="logo"
+              src="public/small_logo-1400w.png"
+              class="home-image3"
+            />
+            <nav class="home-nav1">
+              <nav class="navigation-links-nav navigation-links-root-class-name8">
+                <a href="#home-section"><span class="navigation-links-text"><span>Home</span></span></a>
+                <a href="#about-section"><span class="navigation-links-text1"><span>About Us</span></span></a>
+                <a href="#members-section"><span class="navigation-links-text2"><span>Members</span></span></a>
+                <a href="#gallery-section"><span class="navigation-links-text3"><span>Gallery</span></span></a>
+                <a href="#events-section"><span class="navigation-links-text4"><span>Events</span></span></a>
+                <a href="#subscribe-section"><span class="navigation-links-text5"><span>Subscribe</span></span></a>
+              </nav>
+            </nav>
+          </div>
+          <div class="home-separator"></div>
+          <div class="home-container11">
+            <span class="home-text28">© 2023 ALS, All Rights Reserved.</span>
+          </div>
+        </footer>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+      $(document).ready(function() {
+  $(window).scroll(function() {
+    const scale = 1 - ($(this).scrollTop() / 1000);
+
+    $('#parallax-image').css('transform', `scale(${scale})`);
+  });
+});
+      const parallaxContainer = document.querySelector('.parallax-container');
+      const homeImage2 = document.querySelector('.home-image2');
+      
+      parallaxContainer.addEventListener('mousemove', (e) => {
+        const offsetX = e.clientX - parallaxContainer.getBoundingClientRect().left;
+        const offsetY = e.clientY - parallaxContainer.getBoundingClientRect().top;
+      
+        const translateX = offsetX / parallaxContainer.clientWidth * 10 - 5; 
+        const translateY = offsetY / parallaxContainer.clientHeight * 10 - 5;
+      
+        homeImage2.style.transform = `translate(${translateX}px, ${translateY}px)`;
+      });
+      
+      parallaxContainer.addEventListener('mouseleave', () => {
+        homeImage2.style.transform = 'translate(0, 0)';
+      });
+
+  var modal1 = document.getElementById("modal1");
+  var closeModal1 = document.getElementById("closeModal1");
+
+  var modal2 = document.getElementById("modal2");
+  var closeModal2 = document.getElementById("closeModal2");
+
+  var modal3 = document.getElementById("modal3");
+  var closeModal3 = document.getElementById("closeModal3");
+
+
+  var clickableElement1 = document.querySelector(".testimonial-card1-root-class-name2");
+  var clickableElement2 = document.querySelector(".testimonial-card1-root-class-name");
+  var clickableElement3 = document.querySelector(".testimonial-card1-root-class-name1");
+
+  clickableElement1.addEventListener("click", function () {
+    modal1.style.display = "block";
+    modal1.style.opacity = 1;
+
+    document.getElementById("name1").textContent = "JEAN LEANARD SUBIDA";
+    document.getElementById("age1").textContent = "22"; 
+    document.getElementById("birthday1").textContent = "February 16, 2001"; 
+    document.getElementById("address1").textContent = "Brgy. Pauli-2, Rizal, Laguna";
+    document.getElementById("talents1").textContent = "Drawing, Dancing, Playing musical Instruments"; 
+    document.getElementById("goals1").textContent = "To become a successful computer engineer in the future and have my own business"; 
+  });
+
+  clickableElement2.addEventListener("click", function () {
+    modal2.style.display = "block";
+    modal2.style.opacity = 1;
+    
+    document.getElementById("name2").textContent = "NYCO LAWRENCE LADIMO";
+    document.getElementById("age2").textContent = "21";
+    document.getElementById("birthday2").textContent = "April 21, 2002"; 
+    document.getElementById("address2").textContent = "Brgy. Calumpang, Liliw, Laguna"; 
+    document.getElementById("talents2").textContent = "Playing a Guitar, Photo Editing";
+    document.getElementById("goals2").textContent = "In terms of short-term goals, I'd like to have a solid job that allows me to meet my needs and desires while also having fun. And one of my goals for the future is to operate a business that will sustain and secure my life.";
+  });
+
+  clickableElement3.addEventListener("click", function () {
+    modal3.style.display = "block";
+    modal3.style.opacity = 1;
+    
+    document.getElementById("name3").textContent = "LORENZO ALARVA";
+    document.getElementById("age3").textContent = "22"; 
+    document.getElementById("birthday3").textContent = "November 4, 2001"; 
+    document.getElementById("address3").textContent = "Brgy. Calumpang Liliw, Laguna"; 
+    document.getElementById("talents3").textContent = "I can solve Rubik's Cube in under 20sec. Playing Guitar"; 
+    document.getElementById("goals3").textContent = "Upon successful completion of my college degree program, I have a strong desire to pursue a career in the military, aiming to join the Military Army to serve my country and contribute to the cause of national defense."; 
+  });
+
+  
+  closeModal1.addEventListener("click", function () {
+    modal1.style.animation = "fadeOut 0.5s ease";
+    setTimeout(function () {
+      modal1.style.display = "none";
+      modal1.style.animation = "none";
+    }, 250); 
+  });
+
+  closeModal2.addEventListener("click", function () {
+    modal2.style.animation = "fadeOut 0.5s ease"; 
+    setTimeout(function () {
+      modal2.style.display = "none";
+      modal2.style.animation = "none"; 
+    }, 250); 
+  });
+
+  closeModal3.addEventListener("click", function () {
+    modal3.style.animation = "fadeOut 0.5s ease";
+    setTimeout(function () {
+      modal3.style.display = "none";
+      modal3.style.animation = "none"; 
+    }, 250); 
+  });
+
+  window.addEventListener("click", function (event) {
+    if (event.target === modal1) {
+      modal1.style.animation = "fadeOut 0.5s ease"; 
+    setTimeout(function () {
+      modal1.style.display = "none";
+      modal1.style.animation = "none"; 
+    }, 250);
+    } else if (event.target === modal2) {
+      modal2.style.animation = "fadeOut 0.5s ease"; 
+    setTimeout(function () {
+      modal2.style.display = "none";
+      modal2.style.animation = "none"; 
+    }, 250);
+    } else if (event.target === modal3) {
+      modal3.style.animation = "fadeOut 0.5s ease";
+    setTimeout(function () {
+      modal3.style.display = "none";
+      modal3.style.animation = "none"; 
+    }, 250);
+    }
+  });
+
+  const gallery = document.querySelector('.carousel');
+  const cards = document.querySelectorAll('.gallery-card1-gallery-card');
+  let currentIndex = 0;
+
+  function showSlide(index) {
+    cards.forEach((card, i) => {
+      card.style.transform = `translateX(-${index * 100}%)`;
+    });
+  }
+
+  function nextSlide() {
+    currentIndex = (currentIndex + 1) % cards.length;
+    showSlide(currentIndex);
+  }
+
+  setInterval(nextSlide, 3000);
+
+  const observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('in-viewport');
+          }
+        });
+      }, {
+        threshold: 0.5, // Adjust the threshold as needed
+      });
+
+      // Select all elements with the "fade-in" class and observe them
+      const fadeElements = document.querySelectorAll('.fade-in');
+      fadeElements.forEach(element => {
+        observer.observe(element);
+      });
+    </script>
+  </body>
+</html>
